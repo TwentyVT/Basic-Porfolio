@@ -1,0 +1,16 @@
+* {
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+p.about {
+    float: left;
+    width: 16.6%;
+    color: white;
+    font-size: 28px;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    background-color: aqua
+}
+
+
