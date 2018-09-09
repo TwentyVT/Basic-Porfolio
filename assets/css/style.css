@@ -2,7 +2,7 @@
     font-family: Georgia,"Times New Roman",Times,serif;
 }
 
-header {
+/* header {
     box-sizing: content-box;
     margin-bottom: 2px;
     background-color: tomato;
@@ -10,13 +10,37 @@ header {
     width: 1024px;
     border-bottom-color: black;
   }
+*/
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
+#left {
+    float: left;
+    width: 10.3%;
+    color: #fff;
+    background: #666;
+  }
+  
+#middle {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: teal
+}
+  
+#right {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #666;
+}
 
 div {
     float: left;
     color: white;
     font-size: 28px;
-
     margin-left: 15%;
     text-align: center;
     background-color: teal;
@@ -27,7 +51,7 @@ a {
     margin-bottom: 20px;
   }
 
-section {
+.section {
     clear: both;
     box-sizing: border-box;
     width: 960px;
@@ -38,3 +62,6 @@ section {
     border: black;
 }
 
+footer {
+    clear: both;
+}
