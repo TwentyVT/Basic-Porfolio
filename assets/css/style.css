@@ -2,15 +2,39 @@
     font-family: Georgia,"Times New Roman",Times,serif;
 }
 
-p.about {
+header {
+    box-sizing: content-box;
+    margin-bottom: 2px;
+    background-color: tomato;
+    padding: 20px;
+    width: 1024px;
+    border-bottom-color: black;
+  }
+
+
+div {
     float: left;
-    width: 16.6%;
     color: white;
     font-size: 28px;
-    padding: 20px 0;
-    margin: 0;
+
+    margin-left: 15%;
     text-align: center;
-    background-color: aqua
+    background-color: teal;
 }
 
+a {
+    padding: 20px 20px 20px;
+    margin-bottom: 20px;
+  }
+
+section {
+    clear: both;
+    box-sizing: border-box;
+    width: 960px;
+    height: 960px;
+    padding: 2px;
+    position: relative;
+    margin: 100px;
+    border: black;
+}
 
