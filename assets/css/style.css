@@ -7,6 +7,7 @@
     overflow: hidden;
     background-color: white;
     float:right;
+    padding: 0 0 50px 0 ;
   }
 
 .topnav a {
@@ -30,7 +31,6 @@
     background-color: white;
     color: black;
     float:right;
-    padding-right: 250px;
   }
 
   .test {
@@ -67,8 +67,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  border-style: solid;
   border-color: black;
-  border-width: 10px 10px 10px 10px;
+  border-width: 2px 2px 2px 2px;
 }
 
 .picture {
@@ -81,9 +82,28 @@
 h1 {
   text-align: left;
   width: 960px;
-  margin: 50px 0 0 0;
+  margin: 0 0 0 0;
   border-bottom: 2px;
   border-style: solid;
   border-width: 0 0 1px 0;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+  /* color: black;
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  border-bottom-color: black;
+  background: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 35px; */
+}
